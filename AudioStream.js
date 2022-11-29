@@ -7,7 +7,7 @@ function am_el(id){return document.getElementById(id);}
 /*Source*/
 var soundFile = document.createElement("audio");
 soundFile.src="";
-soundFile.crossorigin=true;
+soundFile.crossorigin="anonymous";
 document.body.appendChild(soundFile);
 soundFile.preservesPitch=false;
 
@@ -58,7 +58,7 @@ class AudioStream {
   getInfo() {
     return {
       "id": "audiostr",
-      "name": "AudioStream ðŸŽµ",
+      "name": "AudioStream",
       "color1": '#ba45ac',
       "color2": '#a8399b',
       "color3": '#942c88',
