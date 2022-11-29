@@ -7,7 +7,7 @@ function am_el(id){return document.getElementById(id);}
 /*Source*/
 var soundFile = document.createElement("audio");
 soundFile.src="";
-soundFile.crossorigin="anonymous";
+soundFile.crossOrigin="anonymous";
 document.body.appendChild(soundFile);
 soundFile.preservesPitch=false;
 
