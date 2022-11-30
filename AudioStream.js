@@ -6,8 +6,8 @@ const icon="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi
 function am_el(id){return document.getElementById(id);}
 /*Source*/
 var soundFile = document.createElement("audio");
+soundFile.crossOrigin = "anonymous";
 soundFile.src="";
-soundFile.crossOrigin="anonymous";
 document.body.appendChild(soundFile);
 soundFile.preservesPitch=false;
 
